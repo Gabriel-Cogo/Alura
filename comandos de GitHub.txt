@@ -1,0 +1,35 @@
+Aqui estão alguns dos comandos mais comuns do Git para interagir com o GitHub:
+
+git clone: Clona um repositório remoto para o seu computador local.
+Exemplo: git clone https://github.com/nomeusuario/nome_repositorio.git
+
+git init: Inicializa um novo repositório Git localmente.
+Exemplo: git init
+
+git add: Adiciona arquivos ao índice do Git para prepará-los para um commit.
+Exemplo: git add nome_arquivo (adiciona um arquivo específico)
+git add . (adiciona todos os arquivos modificados)
+
+git commit: Cria um novo commit com as alterações preparadas no índice.
+Exemplo: git commit -m "Mensagem do commit"
+
+git push: Envia os commits locais para um repositório remoto.
+Exemplo: git push origin nome_branch
+
+git pull: Atualiza o repositório local com as alterações mais recentes do repositório remoto.
+Exemplo: git pull origin nome_branch
+
+git branch: Lista as branches existentes no repositório local.
+Exemplo: git branch
+
+git checkout: Altera a branch atual ou restaura arquivos de um commit específico.
+Exemplo: git checkout nome_branch (muda para uma branch específica)
+git checkout -- nome_arquivo (descarta as alterações em um arquivo)
+
+git merge: Combina as alterações de uma branch em outra.
+Exemplo: git merge nome_branch
+
+git status: Mostra o estado atual do repositório.
+Exemplo: git status
+
+Esses são apenas alguns dos comandos mais comumente usados no Git. Existem muitos outros comandos e opções disponíveis, dependendo das suas necessidades específicas. É sempre útil consultar a documentação oficial do Git para obter informações mais detalhadas sobre cada comando.
