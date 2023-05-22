@@ -40,7 +40,8 @@ vertical-align: top;
 width: 20%;
 margin-right: 15%;}
 
-.imagembenefícios {width: 50%}
+.imagembenefícios {width: 50%;
+box-shadow: 10px 10px 10px 0 #000000;}
 
 footer {
   text-align: center;
@@ -119,6 +120,18 @@ footer {
   font-weight: bold;
 }
 
-.itens:before {
-  🟊
+.itens:before {*}
+
+@media screen and (max-width: 180px) {
+  .caixa, .principal, .conteudo-beneficios, .mapa, .video{
+  width: auto;
+h1{
+  text-align: center;
+}
+nav {position: static;
+
+}
+.lista, .beneficios {
+  width: 100%;
+}
 }
